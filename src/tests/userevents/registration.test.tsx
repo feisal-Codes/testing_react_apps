@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import Registration from "../../components/userevents/registration";
 
 describe("registration",()=>{
+
     it("allows users to submit a form",()=>{
         const mockFunction= jest.fn();
         const mockValues = {
@@ -19,4 +20,9 @@ describe("registration",()=>{
             email:"feisalmib@gmail.com"
         })
     })
+
+    
+
+
+
 })
